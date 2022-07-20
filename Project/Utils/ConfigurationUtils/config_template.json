@@ -1,0 +1,17 @@
+{
+  "first-start": true,
+  "gpu-device": -1,
+  "data-generation-mode": "prod",
+  "single-thread-mode": true,
+  "threads-per-core": 1,
+  "n-cores": 2,
+  "overbook-threads": false,
+  "combined-origins-to-consider": ["Title", "Exp", "Obj", "Title&Exp", "Title&Obj", "Exp&Obj", "Title&Exp&Obj"],
+  "average-similarity-weighted-random-sample-size": {"Icon": 500, "NotIcon": 500, "Title":  500, "Title&NotIcon":  500, "Exp": 500, "Title&Exp":  500, "Obj":  500, "Title&Obj":  500, "Exp&Obj": 500, "Title&Exp&Obj":  500},
+  "dynamic-filtering": true,
+  "enable-debug-output": false,
+  "enable-process-and-thread-handler-debug-output": false,
+  "enable-similarity-rank-database-debug-output": false,
+  "enable-matching-debug-output": false,
+  "matching-mode": "smooth"
+}
